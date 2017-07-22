@@ -11,7 +11,9 @@
     "coverage": "solidity-coverage",
     "injectnetinfo": "node scripts/inject_network_info.js",
     "extractnetinfo": "node scripts/extract_network_info.js",
-    "prepublish": "eslint . && truffle compile && truffle networks --clean && node scripts/inject_network_info.js"
+    "prepublish": "eslint . && truffle compile && truffle networks --clean && node scripts/inject_network_info.js",
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Ethereum",
@@ -46,5 +48,9 @@
   "bugs": {
     "url": "https://github.com/gnosis/gnosis-contracts/issues"
   },
-  "homepage": "https://github.com/gnosis/gnosis-contracts#readme"
+  "homepage": "https://github.com/gnosis/gnosis-contracts#readme",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  }
 }

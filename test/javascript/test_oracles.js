@@ -50,9 +50,9 @@ contract('Oracle', function (accounts) {
         const owner1 = 0
         const owner2 = 1
 
-        // create centralized oracle
+        // create gas oracle
         const gasOracle = utils.getParamFromTxEvent(
-            await gasOracleFactory.createCentralizedOracle(ipfsHash, { from: accounts[owner1] }),
+            await gasOracleFactory.createGasOracle(ipfsHash, { from: accounts[owner1] }),
             'gasOracle', GasOracle
         )
         // Replace account resolving outcome
