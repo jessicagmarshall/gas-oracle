@@ -6,7 +6,7 @@ Here's what you need to know:
 3. `GasOracle.sol` and `GasOracleFactory.sol` should go in `/contracts/oracles` and have implementation similar to `CentralizedOracle.sol`.
 4. Edit `/migrations/2_deploy_gnosis_contracts.js` so that `GasOracleFactory.sol` is linked and deployed.
 5. There is a javascript test in `/test/javascript/test_oracles.js` that goes through the exact steps to deploy a prediction market using the contracts deployed in the migration script in 4.
-6. Sunny should know how to spin up a UI so that people can bet on gas prices, however, Tim just put up a tutorial called petshop in the truffleframework tutorials that will walk you through basics.
+6. Jess should know how to spin up a UI so that people can bet on gas prices, however, Tim just put up a tutorial called petshop in the truffleframework tutorials that will walk you through basics.
 
 ### times that Collin will be awake EST:
 1AM EST Saturday - 4PM EST Saturday
